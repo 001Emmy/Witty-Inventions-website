@@ -12,10 +12,10 @@ const quickLinks = [
 ];
 
 const services = [
-  'Building Construction',
-  'Renovations',
-  'Architectural Planning',
-  'Project Management',
+  'Residential Construction',
+  'Renovations & Remodeling',
+  'Design & Planning',
+  'Maintenance & Repair',
   'Interior Finishing',
 ];
 
@@ -105,18 +105,18 @@ const Footer: React.FC = () => {
             <h4 className="font-heading font-semibold text-lg mb-6">Contact Info</h4>
             <div className="space-y-4 text-sm text-background/70">
               <p>
-                123 Construction Avenue,
+                48, Carrack House, Saltford Close, Da8 Isa,
                 <br />
-                Lagos, Nigeria
+                Erith, UK
               </p>
               <p>
                 <a href="tel:+2348001234567" className="hover:text-primary transition-colors">
-                  +234 800 123 4567
+                  +01322561899
                 </a>
               </p>
               <p>
-                <a href="mailto:info@wittyinventions.com" className="hover:text-primary transition-colors">
-                  info@wittyinventions.com
+                <a href="mailto:wittyinventions22@gmail.com" className="hover:text-primary transition-colors">
+                 wittyinventions22@gmail.com
                 </a>
               </p>
             </div>
