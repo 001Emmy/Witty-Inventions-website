@@ -3,6 +3,20 @@ import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
+// Import images
+import img1 from '@/images/IMG-20250903-WA0020.jpg';
+import img2 from '@/images/IMG-20250903-WA0021.jpg';
+import img3 from '@/images/IMG-20250903-WA0022.jpg';
+import img4 from '@/images/IMG-20250903-WA0023.jpg';
+import img5 from '@/images/IMG-20250903-WA0024.jpg';
+import img6 from '@/images/IMG-20250903-WA0025.jpg';
+import img7 from '@/images/IMG-20250903-WA0026.jpg';
+import img8 from '@/images/IMG-20250903-WA0027.jpg';
+import img9 from '@/images/IMG-20250903-WA0028.jpg';
+import img10 from '@/images/IMG-20250903-WA0029.jpg';
+import img11 from '@/images/IMG-20250903-WA0030.jpg';
+import img12 from '@/images/IMG-20250903-WA0031.jpg';
+
 interface Project {
   id: number;
   title: string;
@@ -17,84 +31,84 @@ const projects: Project[] = [
     title: 'A Bar',
     category: 'Commercial',
     description: 'A state-of-the-art fully furnished bar',
-    image: '/src/images/IMG-20250903-WA0020.jpg',
+    image: img1,
   },
   {
     id: 2,
     title: 'Home refurbishment',
     category: 'Residential',
     description: 'Luxury residential development',
-    image: '/src/images/IMG-20250903-WA0021.jpg',
+    image: img2,
   },
   {
     id: 3,
     title: 'Flooring',
     category: 'Residential',
     description: 'Total remodelling of the floors, More unique and classy.',
-    image: '/src/images/IMG-20250903-WA0022.jpg',
+    image: img3,
   },
   {
     id: 4,
     title: 'Home refurbishment II',
     category: 'Residential',
     description: 'Modern retail complex with entertainment facilities.',
-    image: '/src/images/IMG-20250903-WA0023.jpg',
+    image: img4,
   },
   {
     id: 5,
     title: 'Interior Decoration',
     category: 'Residential',
     description: 'Custom-built interior designs with premium finishes and landscaping.',
-    image: '/src/images/IMG-20250903-WA0024.jpg',
+    image: img5,
   },
   {
     id: 6,
     title: 'Home maintenance',
     category: 'Residential',
     description: 'We do the work so you dont have to',
-    image: '/src/images/IMG-20250903-WA0025.jpg',
+    image: img6,
   },
   {
     id: 7,
     title: 'Fencing',
     category: 'Residential',
     description: 'Beautiful and secure fencing solutions for your property.',
-    image: '/src/images/IMG-20250903-WA0026.jpg',
+    image: img7,
   },
   {
     id: 8,
     title: 'Complete home renovation',
     category: 'Residential',
     description: 'Complete renovation to give your home a fresh,new look.',
-    image: '/src/images/IMG-20250903-WA0027.jpg',
+    image: img8,
   },
   {
     id: 9,
     title: 'Finished home renovation',
     category: 'Residential',
     description: 'Luxury upgrade at low cost',
-    image: '/src/images/IMG-20250903-WA0028.jpg',
+    image: img9,
   },
   {
     id: 10,
     title: 'Interior Design',
     category: 'Residential',
     description: 'Designs to match your style and preference',
-    image: '/src/images/IMG-20250903-WA0029.jpg',
+    image: img10,
   },
   {
     id: 11,
     title: 'Design & Planning',
     category: 'Residential',
-    description: 'Meticulous planning and innovative designs for your dream home.',
-    image: '/src/images/IMG-20250903-WA0030.jpg',
+    description: 'Meticulous planning and innovative designs for your dream home.s',
+    image: img11,
   },
   {
     id: 12,
     title: 'Community Center',
     category: 'Public',
     description: 'Multi-purpose community facility for social gatherings.',
-    image: '/src/images/IMG-20250903-WA0031.jpg',
+    image: img12,
   },
 ];
 
