@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone Numbers',
-    value: '+01322561899',
+    value: '+01322561899\n+07982426817',
     link: 'tel:01322561899',
     isExternal: false,
   },
@@ -35,7 +35,7 @@ const contactInfo = [
     icon: MessageCircle,
     label: 'WhatsApp',
     value: 'Chat with us on WhatsApp',
-    link: 'https://wa.me/01322561899',
+    link: 'https://wa.me/07470165323',
     isExternal: true,
   },
   {

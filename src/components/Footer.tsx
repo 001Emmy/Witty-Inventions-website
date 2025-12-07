@@ -20,10 +20,9 @@ const services = [
 ];
 
 const socialLinks = [
-  { icon: Facebook, href: 'https://facebook.com', label: 'Facebook' },
   { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
   { icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/babatunde-adesua-7a11907a?originalSubdomain=uk', label: 'LinkedIn' },
 ];
 
 const Footer: React.FC = () => {
@@ -111,7 +110,7 @@ const Footer: React.FC = () => {
               </p>
               <p>
                 <a href="tel:+2348001234567" className="hover:text-primary transition-colors">
-                  +01322561899
+                  +01322561899\n+07982426817
                 </a>
               </p>
               <p>
